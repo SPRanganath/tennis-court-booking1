@@ -1,0 +1,45 @@
+:root {
+  --green: #1f6f3e;
+  --green-dark: #164f2c;
+  --ball: #c8e600;
+  --text: #1b1f1a;
+  --text-muted: #5b6560;
+  --bg: #f4f6f2;
+  --surface: #ffffff;
+  --border: #dfe4dc;
+  --danger: #c0392b;
+  --danger-bg: #fdecea;
+  --success: #1f6f3e;
+  --success-bg: #e8f5e9;
+  --shadow: 0 2px 8px rgba(20, 30, 20, 0.08);
+
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  color-scheme: light;
+  color: var(--text);
+  background: var(--bg);
+  font: 16px/1.5 var(--sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  color: var(--text);
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+input, select {
+  font: inherit;
+}
